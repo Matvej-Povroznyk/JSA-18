@@ -1,0 +1,30 @@
+{
+  "name": "jsa-18-hw",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "parcel build src/index.html --public-url /JSA-18/",
+    "dev": "parcel src/index.html ",
+    "server": "json-server --watch ./data/students.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matvej-Povroznyk/jsa-18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Matvej-Povroznyk/jsa-18/issues"
+  },
+  "homepage": "https://github.com/Matvej-Povroznyk/jsa-18#readme",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.15",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "serviceapi": "github:Matvej-Povroznyk/MODULE-Service-Api"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Ivan Petrenko",
+      "age": 15,
+      "course": "Web Development",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "email": "ivan.petrenko@example.com",
+      "isEnrolled": true
+    },
+    {
+      "id": "2",
+      "name": "Olha Kovalenko",
+      "age": 16,
+      "course": "Game Development",
+      "skills": [
+        "C#",
+        "Unity"
+      ],
+      "email": "olha.kovalenko@example.com",
+      "isEnrolled": true
+    },
+    {
+      "id": "3",
+      "name": "Dmytro Shevchenko",
+      "age": 14,
+      "course": "Mobile App Development",
+      "skills": [
+        "Java",
+        "Kotlin",
+        "Android Studio"
+      ],
+      "email": "dmytro.shevchenko@example.com",
+      "isEnrolled": false
+    },
+    {
+      "id": "4",
+      "name": "Anastasia Ivanova",
+      "age": 17,
+      "course": "Data Science",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Machine Learning"
+      ],
+      "email": "anastasia.ivanova@example.com",
+      "isEnrolled": true
+    },
+    {
+      "name": "Mykola Bondarenko",
+      "age": 15,
+      "course": "Cybersecurity",
+      "skills": [
+        "Networking",
+        "Ethical Hacking",
+        "Linux"
+      ],
+      "email": "mykola.bondarenko@example.com",
+      "isEnrolled": true,
+      "id": "5"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
